@@ -1,0 +1,25 @@
+body {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #000000;
+        height: auto;
+        width: auto;
+        border: 3px solid rgb(255, 255, 255);
+}
+.color-body {
+        height: 1024px;
+        width: auto;
+        margin-top: 0px;
+        margin-left: 0px;
+        
+        background: -webkit-gradient(linear,left top,left bottom,from(#ad1f1f99),to(#00000099));
+}
+.footer-cleafix {
+        height: 210px;
+        margin-top: 0px;
+        margin-left: 0px;
+
+        background: -webkit-gradient(linear,left top,left bottom,from(#00000085),to(#00000085));
+}  

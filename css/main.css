@@ -1,0 +1,76 @@
+.hod {
+    text-align:center;
+    color:#fff;
+    font-size:120px;
+    font-family: 'Aa美人篆 (非商业使用)', cursive;
+    text-shadow: 1px  1px 1px #ccc,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 30px #fff,
+    0 0 40px #81f165,
+    0 0 70px #6fe752,
+    0 0 80px #36e00c,
+    0 0 100px #36e00c,
+    0 0 150px #36e00c;
+    transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    animation: run  ease-in-out 3s infinite;
+    -moz-animation: run  ease-in-out 3s infinite ;
+    -webkit-animation: run  ease-in-out 3s infinite;
+    -o-animation: run  ease-in-out 3s infinite;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+@keyframes run {
+    0% {
+        transform:rotateX(-5deg) rotateY(0);
+    }
+    25% {
+        transform:rotateX(0) rotateY(180deg);
+        text-shadow: 1px  1px 1px #ccc,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 30px #fff,
+        0 0 40px #031ecc,
+        0 0 70px #031ecc,
+        0 0 80px #031ecc,
+        0 0 100px #031ecc,
+        0 0 150px #031ecc;
+ 
+    }
+    50% {
+        -webkit-transform:rotateX(0) rotateY(180deg);
+        text-shadow: 1px  1px 1px #ccc,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 30px #fff,
+        0 0 40px #ff0000,
+        0 0 70px #ff0000,
+        0 0 80px #ff0000,
+        0 0 100px #ff0000,
+        0 0 150px #ff0000;
+ 
+    }
+    75% {
+        transform:rotateX(0) rotateY(180deg);
+        text-shadow: 1px  1px 1px #ccc,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 30px #fff,
+        0 0 40px #031ecc,
+        0 0 70px #031ecc,
+        0 0 80px #031ecc,
+        0 0 100px #031ecc,
+        0 0 150px #031ecc;
+ 
+    }
+    100% {
+        transform:rotateX(5deg) rotateY(360deg);
+    }
+}

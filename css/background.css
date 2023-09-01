@@ -1,0 +1,25 @@
+body {
+        background: url("../img/background.jpeg") no-repeat center center fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #464646;
+        height: auto;
+        width: auto;
+        border: 3px solid rgba(255, 255, 255, 0.6);
+}
+.color-body {
+        height: 1024px;
+        width: auto;
+        margin-top: 0px;
+        margin-left: 0px;
+        
+        background: -webkit-gradient(linear,left top,left bottom,from(hsla(0, 0%, 100%, 0.500)),to(hsla(0, 0%, 0%, 0.500)));
+}
+.footer-cleafix {
+        height: 150px;
+        margin-top: 0px;
+        margin-left: 0px;
+        background: -webkit-gradient(linear,left top,left bottom,from(hsla(0, 0%, 0%, 0.500)),to(hsla(0, 0%, 0%, 0.9)));
+}
