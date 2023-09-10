@@ -9,14 +9,14 @@
 .button {
         -webkit-transition-duration: 0.4s;
         transition-duration: 0.4s;
-        padding: 16px 16px;
-        margin: 0 10px;
+        padding: 1% 1%;
+        margin: 0 auto;
         background-color: white;
         color: black;
         border: 2px solid #4CAF50;
         margin-bottom:auto;
 
-        border-radius: 20px;
+        border-radius: 15px;
 }
 .button:hover {
         background-color: #4CAF50;

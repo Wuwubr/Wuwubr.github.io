@@ -50,6 +50,54 @@
                 background-position: -100% 0;
         }
 }
+.typing{
+        display: inline-block;
+        font-size: 3.5em;
+        font-weight: 600;
+        
+        color: white;
+        position: relative;
+        text-align:center;
+    }
+    @keyframes animation-before{
+        0% {
+            clip-path: inset(0 0 0 0);
+        }
+        
+        100% {
+            clip-path: inset(.62em 0 .29em 0);
+        }
+    }
+    
+    @keyframes animation-after{
+          0% {
+            clip-path: inset(0 0 0 0);
+        }
+        
+        100% {
+            clip-path: inset(.29em 0 .62em 0);
+        }
+    }
+.typing::before{
+        content: attr(data-text);
+        position: absolute;
+        left: -2px;
+        width: 100%;
+        background: rgba(0, 0, 0, 0);
+        text-shadow:2px 0 red;
+        animation: animation-before 3s infinite linear alternate-reverse;
+        text-align:center;
+    }
+.typing::after{
+        content: attr(data-text);
+        position: absolute;
+        left: 2px;
+        width: 100%;
+        background: rgba(0, 0, 0, 0);
+        text-shadow: -2px 0 blue;
+        animation: animation-after 3s infinite linear alternate-reverse;
+        text-align:center;
+    }
 a:link {text-decoration: none; color: lightgreen;} /*链接的颜色*/
 a:visited {color: black;}                           /*访问过的颜色*/
 a:hover {color: pink;}                              /*鼠标放置的颜色*/

@@ -8,6 +8,7 @@ body {
         height: auto;
         width: auto;
         border: 3px solid rgba(255, 255, 255, 0.6);
+        border-radius: 15px;
 }
 .color-body {
         background-size: 90%;
@@ -24,11 +25,10 @@ body {
         background: -webkit-gradient(linear,left top,left bottom,from(hsla(0, 0%, 0%, 0.500)),to(hsla(0, 0%, 0%, 0.9)));
 }
 .details-body {
-        height: 20%;
-        width: 80%;
-        background-position: center;
-        margin-top: 0px;
-        margin-left: 10%;
+        height: 150px;
+        width: 85%;
+        margin-top: 20px;
+        margin-left: 8%;
         border-radius: 20px;
         font-size: 30px;
         background: -webkit-gradient(linear,left top,left bottom,from(hsla(0, 0%, 100%, 0.500)),to(hsla(0, 0%, 100%, 0.500)));
