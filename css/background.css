@@ -10,11 +10,11 @@ body {
         border: 3px solid rgba(255, 255, 255, 0.6);
 }
 .color-body {
+        background-size: 90%;
         height: 1024px;
         width: auto;
         margin-top: 0px;
         margin-left: 0px;
-        
         background: -webkit-gradient(linear,left top,left bottom,from(hsla(0, 0%, 100%, 0.500)),to(hsla(0, 0%, 0%, 0.500)));
 }
 .footer-cleafix {
@@ -22,4 +22,14 @@ body {
         margin-top: 0px;
         margin-left: 0px;
         background: -webkit-gradient(linear,left top,left bottom,from(hsla(0, 0%, 0%, 0.500)),to(hsla(0, 0%, 0%, 0.9)));
+}
+.details-body {
+        height: 20%;
+        width: 80%;
+        background-position: center;
+        margin-top: 0px;
+        margin-left: 10%;
+        border-radius: 20px;
+        font-size: 30px;
+        background: -webkit-gradient(linear,left top,left bottom,from(hsla(0, 0%, 100%, 0.500)),to(hsla(0, 0%, 100%, 0.500)));
 }

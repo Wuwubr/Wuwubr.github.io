@@ -1,48 +1,55 @@
 .title { /*标题字体*/
         text-align: center;
-
         background-clip: text;
         background-size: text;
         animation: text;
-
         background-image: -webkit-linear-gradient(left, #147B96, #E6D205 25%, #147B96 50%, #E6D205 75%, #147B96);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
         -webkit-background-size: 200% 100%;
         -webkit-animation:  maskedAnimation 4s infinite linear;
-        font-size: 60px;
+        font-size: 40px;
     }
-     
     @keyframes maskedAnimation {
         0% {
-        background-position: 0 0;
+                background-position: 0 0;
         }
         100% {
-            background-position: -100% 0;
+                background-position: -100% 0;
         }
-    }
-
+}
 .mid-text { /*居中字体*/
         text-align: center;
         background-color: rgba(0, 0, 255, 0);
-        line-height: 40px;
-        font-size: 20px;
+        font-size: 25px;
 }
 .text { /*文本*/
         background-color: rgba(0, 0, 0, 0);
         line-height: 40px;
         font-size: 20px;
 }
-.hr {
-    filter: progid:DXImageTransform.Microsoft.Glow(color=#987cb9,strength=10)
+.summary {
+        text-align:center;
+        margin-top:100px;
 }
-.none {
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -o-user-select: none;
-        user-select: none;
+.colorful{
+        background-clip: text;
+        background-size: text;
+        animation: text;
+        background-image: -webkit-linear-gradient(left, rgb(255, 0, 0), rgb(0, 0, 255) 25%, rgb(255, 0, 0) 50%, rgb(0, 0, 255) 75%, rgb(255, 0, 0));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-background-size: 200% 100%;
+        -webkit-animation:  maskedAnimation 4s infinite linear;
+        }
+        @keyframes maskedAnimation {
+        0% {
+                background-position: 0 0;
+        }
+        100% {
+                background-position: -100% 0;
+        }
 }
-
 a:link {text-decoration: none; color: lightgreen;} /*链接的颜色*/
 a:visited {color: black;}                           /*访问过的颜色*/
 a:hover {color: pink;}                              /*鼠标放置的颜色*/
